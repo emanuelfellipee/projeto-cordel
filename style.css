@@ -1,0 +1,103 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+@font-face {
+    font-family:srira ;
+    src: url(Sriracha-Regular.ttf);
+}
+@font-face {
+    
+    font-family: passblack ;
+    src: url(PassionOne-Black.ttf);
+}
+@font-face {
+    font-family: passbold ;
+    src: url(PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family:passregular;
+    src: url(PassionOne-Regular.ttf);
+}
+header > h1{
+    text-align: center;
+    color: white;
+    font-family: passbold ;
+    font-size: 10vw; 
+    font-variant: small-caps;  
+    padding-top: 50px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+section{
+    padding-top:10vh ;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 3.5vw;
+}
+section > p{
+    padding-bottom: 2em ;
+}
+section.normal{
+    background-color: white;
+    color: black;
+    display: block;
+    font-family: srira;
+    text-indent: 30px;
+    text-align: center;
+    font-size: 3.5vw;
+    padding: 30px;
+
+}
+section.imagem{
+    background-color: rgba(51,51, 51);
+    color: white;
+    display: block;
+    font-family: srira;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.562);
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 5px;
+    display: block;
+    text-shadow: 1px 1px 0px black;
+    text-align: center;
+}
+section#img01{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    color: white;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    color: white;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
